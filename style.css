@@ -1,0 +1,67 @@
+body {
+    margin: 0px;
+    background-color: #F5E8C7;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.beranda {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #9E7777;
+}
+.beranda > img {
+    border-radius: 300px;
+    height: 280px;
+    width: 280px;
+    margin-top: 20px;
+}
+hr {
+    width: 80%;
+    margin-top: 35px;
+    margin-bottom: 50px;
+    text-decoration-line: bold;
+}
+.deskripsi p {
+    text-align: justify;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 10px;
+}
+.nominasi {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 50px;
+}
+.judul > p {
+    color: #261C2C;
+    font-size: 35px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+}
+h4 {
+    margin-left: 50px;
+}
+.nominasi {
+    display: flex;
+    width: 1250px; height: 200px;
+    flex-direction: row;
+    justify-content: center;
+    outline-style: double;
+    outline-color: #3E2C41;
+}
+.nominasi1,.nominasi2, .nominasi3, .nominasi4, .nominasi5, .nominasi6, .nominasi7 {
+    border: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 50px;
+}
+.nominasi2 p {
+   text-align: justify;
+}
+.nominasi1 p {
+    text-align: justify;
+}
